@@ -1,6 +1,6 @@
 (() => {
   const urlParams = new URLSearchParams(window.location.search);
-  const valentine = urlParams.get("valentine");
+  const valentine = urlParams.get("Roshy");
   if (valentine) {
     document.getElementById("valentine").innerText = valentine;
   }
